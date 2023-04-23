@@ -5,8 +5,7 @@ public class User {
 	private String name;
 	private String password;
 	private String role;
-	private String testing;
-	
+
 	
 	public String getName() {
 		return name;
@@ -26,12 +25,6 @@ public class User {
 	public void setRole(String role) {
 		this.role = role;
 	}
-	public String getTesting() {
-		return testing;
-	}
-	public void setTesting(String testing) {
-		this.testing = testing;
-	}
-	
+
 
 }
