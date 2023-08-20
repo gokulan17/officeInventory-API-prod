@@ -33,7 +33,7 @@ public class InventoryController {
 	public String getAllInventoryDetail() {
 //		List<InventoryDetail> inventory = new ArrayList<InventoryDetail>();
 //		inventory = inventoryService.getAllInventoryDetail();
-		return "hello";
+		return "hello hi i am gokulan";
 	}
 
 	@GetMapping("/search")
