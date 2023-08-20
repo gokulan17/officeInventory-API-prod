@@ -29,12 +29,12 @@ public class InventoryController {
 	@Autowired
 	UserService userService;
 	
-//	@GetMapping("/getall")
-//	public List<InventoryDetail> getAllInventoryDetail() {
+	@GetMapping("/getall")
+	public String getAllInventoryDetail() {
 //		List<InventoryDetail> inventory = new ArrayList<InventoryDetail>();
 //		inventory = inventoryService.getAllInventoryDetail();
-//		return inventory;
-//	}
+		return "hello";
+	}
 
 	@GetMapping("/search")
 	public List<InventoryDetail> getAllInventoryDetailFilter(@RequestParam("iname") String invName,
